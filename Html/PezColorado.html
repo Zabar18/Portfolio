@@ -4,19 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Caso de Estudio - Pez Colorado</title>
-    
-    <!-- Tailwind CSS para el diseño responsivo -->
     <script src="https://cdn.tailwindcss.com"></script>
-    
-    <!-- Lucide Icons para la interfaz -->
     <script src="https://unpkg.com/lucide@latest"></script>
-    
-    <!-- Vinculación de Estilos CSS Externos (Modularizado) -->
     <link rel="stylesheet" href="Css/Estilos.css">
 </head>
 <body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col overflow-x-hidden selection:bg-emerald-500 selection:text-slate-950">
 
-    <!-- BARRA DE NAVEGACIÓN SUPERIOR -->
     <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-900 px-6 py-4">
         <div class="max-w-5xl mx-auto flex items-center justify-between">
             <a href="Portfolio.html" class="text-white font-extrabold tracking-tight flex items-center gap-2">
@@ -27,10 +20,8 @@
         </div>
     </nav>
 
-    <!-- DETALLE DEL CASO DE ESTUDIO -->
     <main class="flex-1 py-12 px-6 lg:px-12 max-w-4xl mx-auto">
         <article class="bg-slate-900 border border-slate-850 rounded-3xl overflow-hidden shadow-2xl">
-            <!-- Banner Superior del Caso de Estudio -->
             <div class="bg-gradient-to-r from-emerald-950 via-emerald-900 to-teal-950 p-8 sm:p-12 relative overflow-hidden">
                 <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.15),transparent_60%)]"></div>
                 <div class="relative z-10">
@@ -40,10 +31,8 @@
                 </div>
             </div>
 
-            <!-- Cuerpo del Articulo -->
             <div class="p-6 sm:p-10 space-y-10 text-sm sm:text-base text-slate-300 leading-relaxed">
                 
-                <!-- Resumen de Atributos -->
                 <div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-5 bg-slate-950/60 rounded-2xl border border-slate-800">
                     <div>
                         <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider block">Rol en el equipo</span>
@@ -63,7 +52,6 @@
                     </div>
                 </div>
 
-                <!-- SECCIÓN: EL PROBLEMA -->
                 <section class="space-y-3">
                     <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
                         <span class="w-1.5 h-6 bg-emerald-500 rounded-full"></span> El Problema
@@ -76,7 +64,6 @@
                     </p>
                 </section>
 
-                <!-- SECCIÓN: MI ROL -->
                 <section class="space-y-3">
                     <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
                         <span class="w-1.5 h-6 bg-emerald-500 rounded-full"></span> Mi Rol en el Equipo
@@ -89,7 +76,6 @@
                     </p>
                 </section>
 
-                <!-- SECCIÓN: PROCESO -->
                 <section class="space-y-3">
                     <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
                         <span class="w-1.5 h-6 bg-emerald-500 rounded-full"></span> Proceso de Diseño e Investigación
@@ -102,7 +88,6 @@
                     </p>
                 </section>
 
-                <!-- SECCIÓN: IDEACIÓN, DISEÑO Y TESTEO -->
                 <section class="space-y-3">
                     <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
                         <span class="w-1.5 h-6 bg-emerald-500 rounded-full"></span> Ideación y Ajustes del Prototipo
@@ -120,20 +105,62 @@
                     </div>
                 </section>
 
-                <!-- SECCIÓN: RESULTADOS -->
+                <section class="space-y-4">
+                    <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 bg-emerald-500 rounded-full"></span> Interfaces del Prototipo
+                    </h2>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        A continuación se detallan algunas de las pantallas principales del prototipo móvil iterado, enfocadas en la legibilidad en exteriores y la rápida navegación.
+                    </p>
+                    
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-4">
+                        
+                        <div class="bg-slate-950/40 border border-slate-800 p-3 rounded-2xl group hover:border-emerald-500/20 transition-all">
+                            <div class="overflow-hidden rounded-xl bg-slate-900 aspect-[9/16] flex items-center justify-center">
+                                <img src="../Img/Buscador de peces.webp" alt="Buscador de peces" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                            </div>
+                            <h4 class="text-xs font-bold text-slate-200 mt-3 px-1">Buscador de Peces</h4>
+                            <p class="text-[11px] text-slate-500 px-1 mt-0.5">Filtros rápidos y enciclopedia local.</p>
+                        </div>
+
+                        <div class="bg-slate-950/40 border border-slate-800 p-3 rounded-2xl group hover:border-emerald-500/20 transition-all">
+                            <div class="overflow-hidden rounded-xl bg-slate-900 aspect-[9/16] flex items-center justify-center">
+                                <img src="../Img/Perfil de un pez.webp" alt="Perfil de un pez" class="w-full h-full object-contain group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                            </div>
+                            <h4 class="text-xs font-bold text-slate-200 mt-3 px-1">Perfil Detallado</h4>
+                            <p class="text-[11px] text-slate-500 px-1 mt-0.5">Información de veda, morfología y carnadas.</p>
+                        </div>
+
+                        <div class="bg-slate-950/40 border border-slate-800 p-3 rounded-2xl group hover:border-emerald-500/20 transition-all">
+                            <div class="overflow-hidden rounded-xl bg-slate-900 aspect-[9/16] flex items-center justify-center">
+                                <img src="../Img/Configuracion.webp" alt="Configuración de la app" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                            </div>
+                            <h4 class="text-xs font-bold text-slate-200 mt-3 px-1">Panel de Configuración</h4>
+                            <p class="text-[11px] text-slate-500 px-1 mt-0.5">Preferencias del pescador y mapas offline.</p>
+                        </div>
+
+                        <div class="bg-slate-950/40 border border-slate-800 p-3 rounded-2xl group hover:border-emerald-500/20 transition-all">
+                            <div class="overflow-hidden rounded-xl bg-slate-900 aspect-[9/16] flex items-center justify-center">
+                                <img src="../Img/Privacidad y seguridad.webp" alt="Privacidad y seguridad" class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy">
+                            </div>
+                            <h4 class="text-xs font-bold text-slate-200 mt-3 px-1">Privacidad y Seguridad</h4>
+                            <p class="text-[11px] text-slate-500 px-1 mt-0.5">Control de datos de ubicación y reportes.</p>
+                        </div>
+
+                    </div>
+                </section>
+
                 <section class="p-6 bg-emerald-950/20 border border-emerald-500/20 rounded-2xl space-y-2">
                     <h3 class="font-bold text-white flex items-center gap-2 text-base sm:text-lg">
                         <i data-lucide="award" class="text-emerald-400 w-5 h-5"></i> Solución Obtenida
                     </h3>
                     <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
-                        Hoy en día contamos con un prototipo funcional de aplicación móvil sumamente accesible, muy simplificada y que proporciona un servicio indispensable y centralizado que simplemente no es común encontrar para los pescadores del territorio misionero.
+                        Hoy en día contamos con un prototipo funcional de aplicación móvil sumamente accesible, muy simplificada y que proporciona un servicio indispensable y centralizado que simplemente no es común encontrar para los pescadores del territory misionero.
                     </p>
                 </section>
 
             </div>
         </article>
-        
-        <!-- Botón inferior para regresar -->
         <div class="mt-8 text-center">
             <a href="Portfolio.html#proyectos" class="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-emerald-400 transition-colors font-semibold">
                 <i data-lucide="arrow-left" class="w-4 h-4"></i> Volver a la sección de proyectos
@@ -141,12 +168,10 @@
         </div>
     </main>
 
-    <!-- FOOTER -->
     <footer class="bg-slate-950 py-10 px-6 border-t border-slate-900 text-center text-xs text-slate-500">
         <p>© 2026 Luciano Steinmann. Caso de estudio académico para el Parcial.</p>
     </footer>
 
-    <!-- Vinculación de Lógica JS Externa (Modularizado) -->
     <script src="Scripts/main.js"></script>
 </body>
 </html>
