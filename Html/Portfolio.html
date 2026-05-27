@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Profesional - Luciano Steinmann</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link rel="stylesheet" href="Css/Estilos.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col overflow-x-hidden selection:bg-emerald-500 selection:text-slate-950">
+
+    <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-900 px-6 py-4">
+        <div class="max-w-5xl mx-auto flex items-center justify-between">
+            <a href="#" class="text-white font-extrabold tracking-tight flex items-center gap-2">
+                <span class="w-2.5 h-2.5 rounded-full bg-emerald-500 animate-pulse"></span>
+                <span>LS<span class="text-emerald-400">.dev</span></span>
+            </a>
+            
+            <div class="hidden sm:flex items-center gap-6 text-sm">
+                <a href="#sobre-mi" class="text-slate-400 hover:text-emerald-400 transition-colors">Sobre Mí</a>
+                <a href="#proyectos" class="text-slate-400 hover:text-emerald-400 transition-colors">Proyectos</a>
+                <a href="#habilidades" class="text-slate-400 hover:text-emerald-400 transition-colors">Habilidades</a>
+                <a href="#contacto" class="px-4 py-1.5 bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 border border-emerald-500/30 rounded-lg font-semibold transition-all">
+                    Contacto
+                </a>
+            </div>
+
+            <a href="#contacto" class="sm:hidden px-3 py-1 bg-emerald-500 text-slate-950 text-xs font-bold rounded-lg transition-all">
+                Contacto
+            </a>
+        </div>
+    </nav>
+
+    <main class="flex-1">
+        
+        <header class="relative overflow-hidden bg-slate-950 py-24 px-6 lg:px-12 border-b border-slate-900">
+            <div class="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(16,185,129,0.06),transparent_55%)]"></div>
+            
+            <div class="max-w-5xl mx-auto relative z-10 flex flex-col md:flex-row items-center gap-12 justify-between">
+                <div class="text-center md:text-left flex-1">
+                    <span class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-emerald-500/10 border border-emerald-500/20 text-emerald-400 text-xs font-bold tracking-wider rounded-full uppercase">
+                        Estudiante de Ingeniería en Sistemas de Información (ISI)
+                    </span>
+                    <h1 class="serif-title text-4xl sm:text-5xl md:text-6xl font-extrabold text-white mt-5 tracking-tight leading-none">
+                        Luciano Steinmann
+                    </h1>
+                    <p class="text-slate-400 mt-5 text-base sm:text-lg max-w-xl leading-relaxed">
+                        La pasión por el diseño de interacción combinada con la rigurosidad analítica y metodológica de la ingeniería de software.
+                    </p>
+                    
+                    <div class="flex flex-wrap items-center justify-center md:justify-start gap-3 mt-8">
+                        <a href="#contacto" class="px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold rounded-xl text-sm transition-all flex items-center gap-2 shadow-lg shadow-emerald-500/10">
+                            <i data-lucide="mail" class="w-4 h-4"></i>
+                            Escribime un correo
+                        </a>
+                    </div>
+                </div>
+
+                <div class="bg-slate-900/40 border border-slate-850 p-6 sm:p-8 rounded-3xl w-full max-w-sm shadow-xl shrink-0 backdrop-blur-sm">
+                    <h3 class="text-xs font-bold text-slate-400 uppercase tracking-widest mb-4 flex items-center gap-2">
+                        <span class="w-2 h-2 rounded-full bg-emerald-500"></span> Propuesta Única de Valor
+                    </h3>
+                    <div class="space-y-4 text-sm leading-relaxed text-slate-300">
+                        <p>
+                            <strong class="text-white font-semibold">Investigación & Análisis:</strong> Facilidad innata para recopilar, estructurar y sintetizar necesidades complejas de usuario y técnicas.
+                        </p>
+                        <p>
+                            <strong class="text-white font-semibold">Crecimiento Continuo:</strong> Firme compromiso con la calidad y la iniciativa de resolver desafíos de negocio con tecnología duradera.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <section id="sobre-mi" class="py-20 px-6 lg:px-12 max-w-5xl mx-auto">
+            <h2 class="text-2xl sm:text-3xl font-bold text-white flex items-center gap-2.5 mb-8">
+                <span class="text-emerald-500">#</span> Sobre Mí
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="md:col-span-2 space-y-4 text-sm sm:text-base text-slate-400 leading-relaxed">
+                    <p>
+                        Actualmente curso el 4to año de la carrera de <strong class="text-slate-200">Ingeniería en Sistemas de Información (ISI)</strong> en Posadas, Misiones. Mi formación me ha permitido unir la ingeniería dura de software con una sensible perspectiva hacia la experiencia del usuario (UX Research).
+                    </p>
+                    <p>
+                        Mi objetivo primordial se centra en la inserción laboral para desplegar solutions de software reales, y paralelamente asumir desarrollos bajo la modalidad freelance para empresas y emprendimientos que requieran modernizar sus canales de venta o interacción.
+                    </p>
+                </div>
+                
+                <div class="bg-slate-900 border border-slate-850 p-6 rounded-2xl flex flex-col justify-between">
+                    <div>
+                        <h4 class="text-xs font-bold uppercase tracking-widest text-emerald-400 mb-4">Información de Perfil</h4>
+                        <ul class="space-y-3 text-xs sm:text-sm">
+                            <li class="flex justify-between py-1.5 border-b border-slate-800/60"><span class="text-slate-400">Carrera</span> <span class="text-slate-200 font-semibold">ISI (4° Año)</span></li>
+                            <li class="flex justify-between py-1.5 border-b border-slate-800/60"><span class="text-slate-400">Ubicación</span> <span class="text-slate-200 font-semibold">Misiones, AR</span></li>
+                            <li class="flex justify-between py-1.5"><span class="text-slate-400">Enfoque</span> <span class="text-slate-200 font-semibold">Dev & UX Research</span></li>
+                        </ul>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-slate-800">
+                        <a href="mailto:lucianosteinmann1@gmail.com" class="text-xs text-emerald-400 font-bold flex items-center gap-1.5 hover:underline">
+                            lucianosteinmann1@gmail.com <i data-lucide="arrow-up-right" class="w-3.5 h-3.5"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="proyectos" class="py-20 px-6 lg:px-12 bg-slate-900/20 border-t border-b border-slate-900">
+            <div class="max-w-5xl mx-auto">
+                <div class="mb-12">
+                    <h2 class="text-2xl sm:text-3xl font-bold text-white flex items-center gap-2.5">
+                        <span class="text-emerald-500">#</span> Proyectos Destacados
+                    </h2>
+                    <p class="text-sm text-slate-400 mt-1">Estrategia, iteración empírica y optimización de código documentado.</p>
+                </div>
+
+                <div class="flex flex-col gap-12">
+                    
+                    <article class="bg-slate-900 border border-slate-850 p-8 rounded-3xl hover:border-emerald-500/30 transition-all duration-300 shadow-lg flex flex-col justify-between items-start gap-6">
+                        <div class="w-full">
+                            <span class="text-[10px] bg-emerald-500 text-slate-950 font-extrabold tracking-widest px-2.5 py-1 rounded-md uppercase">UX Research & Mobile UI</span>
+                            <h3 class="serif-title text-2xl sm:text-3xl font-bold text-white mt-3">Pez Colorado</h3>
+                            <p class="text-slate-300 mt-4 text-sm sm:text-base leading-relaxed">
+                                La aplicación de pesca misionera definitiva. Una solución optimizada, accesible y amigable diseñada específicamente para mapear especies, legislación de veda, áreas de hospedaje y comercios locales en campo abierto.
+                            </p>
+                        </div>
+                        <a href="PezColorado.html" class="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold rounded-xl text-xs sm:text-sm transition-all flex items-center gap-2">
+                            <span>Ver Proyecto</span>
+                            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </article>
+
+                    <article class="bg-slate-900 border border-slate-850 p-8 rounded-3xl hover:border-emerald-500/30 transition-all duration-300 shadow-lg flex flex-col justify-between items-start gap-6">
+                        <div class="w-full">
+                            <span class="text-[10px] bg-emerald-500 text-slate-950 font-extrabold tracking-widest px-2.5 py-1 rounded-md uppercase">Desarrollo Full-Stack Solitario</span>
+                            <h3 class="serif-title text-2xl sm:text-3xl font-bold text-white mt-3">Escudos Miniatura</h3>
+                            <p class="text-slate-300 mt-4 text-sm sm:text-base leading-relaxed">
+                                La pasión artesanal en la palma de tu mano. Un refinado escaparate web de exhibición y catálogo enfocado al 100% en los detalles de piezas artesanales del fútbol argentino fabricadas en madera, goma y tela.
+                            </p>
+                        </div>
+                        <a href="EscudosMiniatura.html" class="px-5 py-2.5 bg-emerald-500 hover:bg-emerald-600 text-slate-950 font-bold rounded-xl text-xs sm:text-sm transition-all flex items-center gap-2">
+                            <span>Ver Proyecto</span>
+                            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+                        </a>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="habilidades" class="py-20 px-6 lg:px-12 max-w-5xl mx-auto">
+            <h2 class="text-2xl sm:text-3xl font-bold text-white flex items-center gap-2.5 mb-8">
+                <span class="text-emerald-500">#</span> Tecnologías & Habilidades
+            </h2>
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4 sm:gap-6">
+                <div class="p-6 bg-slate-900 border border-slate-850 rounded-2xl text-center group hover:border-emerald-500/20 transition-all">
+                    <div class="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center mx-auto mb-4 text-emerald-400 group-hover:scale-110 transition-transform">
+                        <i data-lucide="code" class="w-6 h-6"></i>
+                    </div>
+                    <h4 class="text-sm font-bold text-slate-200">Desarrollo Web</h4>
+                    <p class="text-xs text-slate-550 mt-1.5">HTML5, CSS3, JavaScript ES6</p>
+                </div>
+                <div class="p-6 bg-slate-900 border border-slate-850 rounded-2xl text-center group hover:border-emerald-500/20 transition-all">
+                    <div class="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center mx-auto mb-4 text-emerald-400 group-hover:scale-110 transition-transform">
+                        <i data-lucide="database" class="w-6 h-6"></i>
+                    </div>
+                    <h4 class="text-sm font-bold text-slate-200">Bases de Datos</h4>
+                    <p class="text-xs text-slate-550 mt-1.5">SQL relacional, diseño lógico</p>
+                </div>
+                <div class="p-6 bg-slate-900 border border-slate-850 rounded-2xl text-center group hover:border-emerald-500/20 transition-all">
+                    <div class="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center mx-auto mb-4 text-emerald-400 group-hover:scale-110 transition-transform">
+                        <i data-lucide="search" class="w-6 h-6"></i>
+                    </div>
+                    <h4 class="text-sm font-bold text-slate-200">UX Research</h4>
+                    <p class="text-xs text-slate-550 mt-1.5">Modelado de proto-personas, testeo con usuarios</p>
+                </div>
+                <div class="p-6 bg-slate-900 border border-slate-850 rounded-2xl text-center group hover:border-emerald-500/20 transition-all">
+                    <div class="w-12 h-12 bg-emerald-500/10 rounded-xl flex items-center justify-center mx-auto mb-4 text-emerald-400 group-hover:scale-110 transition-transform">
+                        <i data-lucide="layout" class="w-6 h-6"></i>
+                    </div>
+                    <h4 class="text-sm font-bold text-slate-200">Modelado & UI</h4>
+                    <p class="text-xs text-slate-550 mt-1.5">Figma, Canva, No-Code (Carrd, Framer)</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="contacto" class="bg-slate-950 py-16 px-6 lg:px-12 border-t border-slate-900 mt-auto">
+        <div class="max-w-5xl mx-auto">
+            <div class="flex flex-col md:flex-row justify-between items-center gap-8 mb-12">
+                <div class="text-center md:text-left">
+                    <h3 class="serif-title text-2xl font-bold text-white">Luciano Steinmann</h3>
+                    <p class="text-sm text-slate-400 mt-1">Ingeniería en Sistemas de Información • Misiones, Argentina</p>
+                </div>
+                
+                <div class="flex flex-wrap justify-center gap-3">
+                    <a href="mailto:lucianosteinmann1@gmail.com" class="p-3 bg-slate-900 border border-slate-850 hover:border-emerald-500/40 text-slate-300 hover:text-emerald-400 rounded-xl transition-all flex items-center gap-2 text-xs sm:text-sm">
+                        <i data-lucide="mail" class="w-4 h-4 text-emerald-400"></i>
+                        <span>lucianosteinmann1@gmail.com</span>
+                    </a>
+                    <a href="#" target="_blank" class="p-3 bg-slate-900 border border-slate-850 hover:border-emerald-500/40 text-slate-300 hover:text-emerald-400 rounded-xl transition-all flex items-center gap-2 text-xs sm:text-sm">
+                        <i data-lucide="linkedin" class="w-4 h-4 text-emerald-400"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="#" target="_blank" class="p-3 bg-slate-900 border border-slate-850 hover:border-emerald-500/40 text-slate-300 hover:text-emerald-400 rounded-xl transition-all flex items-center gap-2 text-xs sm:text-sm">
+                        <i data-lucide="github" class="w-4 h-4 text-emerald-400"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+
+            <div class="border-t border-slate-900 pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs text-slate-500">
+                <p>© 2026 Luciano Steinmann. Todos los derechos reservados.</p>
+                <p class="italic text-emerald-500/60 font-medium">"La disciplina y el constante deseo de superación son innegociables."</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Scripts/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso de Estudio - Pez Colorado</title>
+    
+    <!-- Tailwind CSS para el diseño responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons para la interfaz -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Vinculación de Estilos CSS Externos (Modularizado) -->
+    <link rel="stylesheet" href="Css/Estilos.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col overflow-x-hidden selection:bg-emerald-500 selection:text-slate-950">
+
+    <!-- BARRA DE NAVEGACIÓN SUPERIOR -->
+    <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-900 px-6 py-4">
+        <div class="max-w-5xl mx-auto flex items-center justify-between">
+            <a href="Portfolio.html" class="text-white font-extrabold tracking-tight flex items-center gap-2">
+                <i data-lucide="arrow-left" class="w-4 h-4 text-emerald-400"></i>
+                <span>Volver al Portfolio</span>
+            </a>
+            <span class="text-xs text-slate-500 font-mono hidden sm:inline">Caso de Estudio #1</span>
+        </div>
+    </nav>
+
+    <!-- DETALLE DEL CASO DE ESTUDIO -->
+    <main class="flex-1 py-12 px-6 lg:px-12 max-w-4xl mx-auto">
+        <article class="bg-slate-900 border border-slate-850 rounded-3xl overflow-hidden shadow-2xl">
+            <!-- Banner Superior del Caso de Estudio -->
+            <div class="bg-gradient-to-r from-emerald-950 via-emerald-900 to-teal-950 p-8 sm:p-12 relative overflow-hidden">
+                <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.15),transparent_60%)]"></div>
+                <div class="relative z-10">
+                    <span class="text-[10px] bg-emerald-500 text-slate-950 font-extrabold tracking-widest px-2.5 py-1 rounded-md uppercase">UX Research & Mobile UI</span>
+                    <h1 class="serif-title text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mt-4">Pez Colorado</h1>
+                    <p class="text-sm sm:text-base text-emerald-300 mt-2 font-medium">La aplicación de pesca misionera definitiva</p>
+                </div>
+            </div>
+
+            <!-- Cuerpo del Articulo -->
+            <div class="p-6 sm:p-10 space-y-10 text-sm sm:text-base text-slate-300 leading-relaxed">
+                
+                <!-- Resumen de Atributos -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-5 bg-slate-950/60 rounded-2xl border border-slate-800">
+                    <div>
+                        <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider block">Rol en el equipo</span>
+                        <span class="text-white font-semibold text-xs sm:text-sm">Investigación & Core UX</span>
+                    </div>
+                    <div>
+                        <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider block">Herramientas</span>
+                        <span class="text-white font-semibold text-xs sm:text-sm">Figma, Canva, Gemini</span>
+                    </div>
+                    <div>
+                        <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider block">Plazo de desarrollo</span>
+                        <span class="text-white font-semibold text-xs sm:text-sm">4 a 5 meses</span>
+                    </div>
+                    <div>
+                        <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider block">Enfoque final</span>
+                        <span class="text-emerald-400 font-semibold text-xs sm:text-sm">Mobile App (Android/iOS)</span>
+                    </div>
+                </div>
+
+                <!-- SECCIÓN: EL PROBLEMA -->
+                <section class="space-y-3">
+                    <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 bg-emerald-500 rounded-full"></span> El Problema
+                    </h2>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        Quizá muchas aplicaciones de pesca tengan información importante sobre el área de misiones, pero carecen de muchas funciones vitales que consideramos que podrían ayudar de gran manera a los pescadores locales. Las aplicaciones de pesca suelen dar puntos de pesca, información sobre ciertas especies o un pequeño registro personal.
+                    </p>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        Nosotros pensamos en que podríamos dar mucho más que eso. Como solo nos limitaríamos a nuestra provincia de Misiones, podemos ir mucho más a fondo porque no se tienen en cuenta cosas como la legislación local, los cambios de veda, tiendas que puedan vender mercancía útil para los compradores o lugares donde hospedarse. Queremos ofrecer eso además de solo puntos de pesca.
+                    </p>
+                </section>
+
+                <!-- SECCIÓN: MI ROL -->
+                <section class="space-y-3">
+                    <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 bg-emerald-500 rounded-full"></span> Mi Rol en el Equipo
+                    </h2>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        Con nuestro equipo nos hemos dividido constantemente las tareas por lo cual tuve más de un rol. Mientras que ciertos compañeros se encargaron más de tareas artísticas o de diseño, yo ayudé mucho con el lado de la investigación y planteamiento conceptual de nuestra aplicación.
+                    </p>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        Investigué cosas como competidores directos, el posible mercado de la aplicación, y planteé por qué usamos el diseño, los colores y la tipografía que finalmente elegimos. Esto se sumó a muchas tareas que realizamos todos por separado, como la creación de las proto-personas o el diagrama de flujo de usuario. Posteriormente también colaboré con el diseño de la interfaz y la funcionalidad de la enciclopedia de especies y la configuración de usuario.
+                    </p>
+                </section>
+
+                <!-- SECCIÓN: PROCESO -->
+                <section class="space-y-3">
+                    <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 bg-emerald-500 rounded-full"></span> Proceso de Diseño e Investigación
+                    </h2>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        Lo primero que hicimos fue definir dónde nos encontrábamos: necesitábamos contexto. Necesitábamos entender si había algún servicio similar en Misiones, si el proyecto podía existir y ser sustentable, quiénes eran los competidores directos para usarlos como referencia y qué problemáticas de usabilidad podíamos encontrarnos.
+                    </p>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        Aprendí en gran medida que lo que más se valora en este rubro es la <strong>accesibilidad y sencillez</strong>. La pesca tiene un público demográfico sumamente variado y muchas personas no están dispuestas a "saltar de página en página" en su celular; necesitan algo rápido y simple de manejar. En base a eso, diseñamos proto-personas detalladas para guiar nuestras decisiones de desarrollo.
+                    </p>
+                </section>
+
+                <!-- SECCIÓN: IDEACIÓN, DISEÑO Y TESTEO -->
+                <section class="space-y-3">
+                    <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 bg-emerald-500 rounded-full"></span> Ideación y Ajustes del Prototipo
+                    </h2>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        El proyecto mantuvo su idea principal, pero la propuesta visual cambió sustancialmente. Inicialmente lo planeamos con tonos grises y azules, pero gradualmente comprendimos que los tonos verdes conectaban de forma directa con la selva misionera y la naturaleza del deporte en la región.
+                    </p>
+                    <div class="p-5 bg-slate-950/40 rounded-2xl border border-slate-800 space-y-2 mt-4">
+                        <h4 class="text-xs font-bold text-emerald-400 uppercase tracking-wider flex items-center gap-1.5">
+                            <i data-lucide="git-pull-request" class="w-4 h-4"></i> El Pivot de Usabilidad en el Testeo
+                        </h4>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Al probar el primer prototipo con un agente externo al desarrollo, nos dimos cuenta de que la navegación resultaba ortopédica y confusa. Tomé la decisión de modificar drásticamente el diseño: eliminamos bloques repetitivos que abrumaban la vista, agregamos atajos inteligentes en pantalla para ahorrar pasos y agrandamos considerablemente las fotografías de las especies de peces dentro de la enciclopedia para facilitar su rápido reconocimiento en el río.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- SECCIÓN: RESULTADOS -->
+                <section class="p-6 bg-emerald-950/20 border border-emerald-500/20 rounded-2xl space-y-2">
+                    <h3 class="font-bold text-white flex items-center gap-2 text-base sm:text-lg">
+                        <i data-lucide="award" class="text-emerald-400 w-5 h-5"></i> Solución Obtenida
+                    </h3>
+                    <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                        Hoy en día contamos con un prototipo funcional de aplicación móvil sumamente accesible, muy simplificada y que proporciona un servicio indispensable y centralizado que simplemente no es común encontrar para los pescadores del territorio misionero.
+                    </p>
+                </section>
+
+            </div>
+        </article>
+        
+        <!-- Botón inferior para regresar -->
+        <div class="mt-8 text-center">
+            <a href="Portfolio.html#proyectos" class="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-emerald-400 transition-colors font-semibold">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i> Volver a la sección de proyectos
+            </a>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 py-10 px-6 border-t border-slate-900 text-center text-xs text-slate-500">
+        <p>© 2026 Luciano Steinmann. Caso de estudio académico para el Parcial.</p>
+    </footer>
+
+    <!-- Vinculación de Lógica JS Externa (Modularizado) -->
+    <script src="Scripts/main.js"></script>
+</body>
+</html>

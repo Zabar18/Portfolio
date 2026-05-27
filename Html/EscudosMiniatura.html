@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caso de Estudio - Escudos Miniatura</title>
+    
+    <!-- Tailwind CSS para el diseño responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Lucide Icons para la interfaz -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    
+    <!-- Vinculación de Estilos CSS Externos (Modularizado) -->
+    <link rel="stylesheet" href="Css/Estilos.css">
+</head>
+<body class="bg-slate-950 text-slate-100 min-h-screen flex flex-col overflow-x-hidden selection:bg-emerald-500 selection:text-slate-950">
+
+    <!-- BARRA DE NAVEGACIÓN SUPERIOR -->
+    <nav class="sticky top-0 z-50 bg-slate-950/80 backdrop-blur-md border-b border-slate-900 px-6 py-4">
+        <div class="max-w-5xl mx-auto flex items-center justify-between">
+            <a href="Portfolio.html" class="text-white font-extrabold tracking-tight flex items-center gap-2">
+                <i data-lucide="arrow-left" class="w-4 h-4 text-indigo-400"></i>
+                <span>Volver al Portfolio</span>
+            </a>
+            <span class="text-xs text-slate-500 font-mono hidden sm:inline">Caso de Estudio #2</span>
+        </div>
+    </nav>
+
+    <!-- DETALLE DEL CASO DE ESTUDIO -->
+    <main class="flex-1 py-12 px-6 lg:px-12 max-w-4xl mx-auto">
+        <article class="bg-slate-900 border border-slate-850 rounded-3xl overflow-hidden shadow-2xl">
+            <!-- Banner Superior del Caso de Estudio -->
+            <div class="bg-gradient-to-r from-slate-950 via-slate-900 to-indigo-950 p-8 sm:p-12 relative overflow-hidden">
+                <div class="absolute inset-0 opacity-10 bg-[radial-gradient(circle_at_center,rgba(255,255,255,0.15),transparent_60%)]"></div>
+                <div class="relative z-10">
+                    <span class="text-[10px] bg-indigo-500 text-white font-extrabold tracking-widest px-2.5 py-1 rounded-md uppercase">Desarrollo Full-Stack Solitario</span>
+                    <h1 class="serif-title text-3xl sm:text-4xl md:text-5xl font-extrabold text-white mt-4">Escudos Miniatura</h1>
+                    <p class="text-sm sm:text-base text-slate-300 mt-2 font-medium">La pasión artesanal en la palma de tu mano</p>
+                </div>
+            </div>
+
+            <!-- Cuerpo del Articulo -->
+            <div class="p-6 sm:p-10 space-y-10 text-sm sm:text-base text-slate-300 leading-relaxed">
+                
+                <!-- Resumen de Atributos -->
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-5 bg-slate-950/60 rounded-2xl border border-slate-800">
+                    <div>
+                        <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider block">Integrantes</span>
+                        <span class="text-white font-semibold text-xs sm:text-sm">1 (Proyecto Solitario)</span>
+                    </div>
+                    <div>
+                        <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider block">Stack Técnico</span>
+                        <span class="text-white font-semibold text-xs sm:text-sm">HTML, CSS, JS, SQL</span>
+                    </div>
+                    <div>
+                        <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider block">Plazo de desarrollo</span>
+                        <span class="text-white font-semibold text-xs sm:text-sm">3 meses</span>
+                    </div>
+                    <div>
+                        <span class="text-[11px] text-slate-500 uppercase font-bold tracking-wider block">Enfoque final</span>
+                        <span class="text-indigo-400 font-semibold text-xs sm:text-sm">E-commerce Catalogo Web</span>
+                    </div>
+                </div>
+
+                <!-- SECCIÓN: EL PROBLEMA -->
+                <section class="space-y-3">
+                    <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 bg-indigo-500 rounded-full"></span> El Problema
+                    </h2>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        Este fue un proyecto realizado para una cátedra. Consistía en materializar una propuesta web completa donde cualquier aficionado pudiera adquirir escudos de fútbol argentino fabricados artesanalmente en tres tipos de materiales: madera, goma o tela.
+                    </p>
+                </section>
+
+                <!-- SECCIÓN: MI ROL -->
+                <section class="space-y-3">
+                    <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 bg-indigo-500 rounded-full"></span> Mi Rol
+                    </h2>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        Al llevar adelante el desarrollo en solitario, tuve que hacerme cargo de absolutamente cada uno de los aspectos técnicos y lógicos del proyecto. Esto incluye el análisis inicial, estructuración de directorios, lógica del carrito de compras en JavaScript frontend, maquetación adaptativa, y el diseño y normalización de una base de datos relacional para gestionar los productos.
+                    </p>
+                </section>
+
+                <!-- SECCIÓN: PROCESO -->
+                <section class="space-y-3">
+                    <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 bg-indigo-500 rounded-full"></span> Proceso de Desarrollo y Planificación
+                    </h2>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        La creación de este sitio web se dio de forma paulatina. En un principio, el avance era muy desorganizado y carecía de estructura: tenía los estilos CSS y los scripts amontonados en la misma carpeta que el archivo HTML.
+                    </p>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        Poco a poco comprendí la enorme importancia que tiene la <strong>organización de carpetas y la planificación arquitectónica</strong> antes de escribir código. Al reorganizar todo en carpetas independientes (`Css`, `Scripts`), el proyecto fluyó de forma superior. Logré implementar características avanzadas como filtrado dinámico mediante un buscador de productos, almacenamiento estructurado usando tablas de SQL, persistencia básica de datos y la vista final para concretar los pagos de compras.
+                    </p>
+                </section>
+
+                <!-- SECCIÓN: PIVOT DE DISEÑO -->
+                <section class="space-y-3">
+                    <h2 class="text-lg sm:text-xl font-bold text-white flex items-center gap-2">
+                        <span class="w-1.5 h-6 bg-indigo-500 rounded-full"></span> Ideación y Pivot Conceptual (UX)
+                    </h2>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        Mi propuesta original de negocio consistía en un gestor bajo demanda para solicitar la producción de escudos personalizados de cualquier club. Sin embargo, analizando el flujo de trabajo, reestructuré la idea para transformarla en un 'escaparate/catálogo' con productos preestablecidos, logrando agilizar y simplificar la compra final.
+                    </p>
+                    <p class="text-slate-400 text-xs sm:text-sm leading-relaxed">
+                        A nivel de UI (Interfaz de Usuario), inicialmente imaginé un diseño cargado de texturas futbolísticas, campos de fútbol de fondo y pelotas como botones de navegación. Descarté esto al darme cuenta de que saturaba cognitivamente al usuario. Simplifiqué el entorno visual para que la pieza de artesanía física sea el centro absoluto de atención en pantalla.
+                    </p>
+                </section>
+
+                <!-- SECCIÓN: RESULTADOS -->
+                <section class="p-6 bg-indigo-950/20 border border-indigo-500/20 rounded-2xl space-y-2">
+                    <h3 class="font-bold text-white flex items-center gap-2 text-base sm:text-lg">
+                        <i data-lucide="award" class="text-indigo-400 w-5 h-5"></i> Solución Final Obtenida
+                    </h3>
+                    <p class="text-xs sm:text-sm text-slate-300 leading-relaxed">
+                        Logré estructurar y publicar un sitio web de e-commerce totalmente funcional, responsivo y adaptado para que cualquier usuario pueda seleccionar, filtrar por material y simular la compra de su escudo de fútbol favorito de forma directa y sin distracciones.
+                    </p>
+                </section>
+
+            </div>
+        </article>
+        
+        <!-- Botón inferior para regresar -->
+        <div class="mt-8 text-center">
+            <a href="Portfolio.html#proyectos" class="inline-flex items-center gap-2 text-sm text-slate-500 hover:text-indigo-400 transition-colors font-semibold">
+                <i data-lucide="arrow-left" class="w-4 h-4"></i> Volver a la sección de proyectos
+            </a>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="bg-slate-950 py-10 px-6 border-t border-slate-900 text-center text-xs text-slate-500">
+        <p>© 2026 Luciano Steinmann. Caso de estudio académico para el Parcial.</p>
+    </footer>
+
+    <!-- Vinculación de Lógica JS Externa (Modularizado) -->
+    <script src="Scripts/main.js"></script>
+</body>
+</html>
